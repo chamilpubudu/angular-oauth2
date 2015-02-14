@@ -31,7 +31,7 @@ angular.module('myApp', ['angular-oauth2'])
     OAuthProvider.configure({
       baseUrl: 'https://api.website.com',
       clientId: 'CLIENT_ID',
-      clientSecret: 'CLIENT_SECRET',
+      clientSecret: 'CLIENT_SECRET', // optional
     });
   }]);
 ```
